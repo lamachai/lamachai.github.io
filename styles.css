@@ -8,7 +8,7 @@
 }
 
 body {
-    max-width: 100%;
+    min-width: 100%;
     min-height: 100vh;
     background: linear-gradient(to right, #0fdaab41, #0fb5da4b), url("andrew-kliatskyi-RJ7tsexUyJY-unsplash.jpg");
     background-size: cover;
@@ -18,8 +18,7 @@ body {
 header,
 main,
 .projects {
-    width: 95%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 header {
@@ -113,14 +112,17 @@ ul~ul {
         height: 200px;
     }
 
+
     .social, .presentation{
         width: 100%;
         text-align: center;
         font-size: 1.5rem;
+        padding: 10px 0;
+        margin: 10px 0;
     }
 
     .skills{
-        padding: 10px;
+        padding: 10px 0;
         flex-direction: column;
         height: fit-content;
         margin-bottom: 10px;
@@ -128,6 +130,7 @@ ul~ul {
 
     .skills ul{
         margin: 10px 0;
+        font-size: 1.5rem;
     }
 }
 
